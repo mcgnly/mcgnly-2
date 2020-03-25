@@ -1,0 +1,56 @@
+[
+    {
+        "title":"Ada Health Web Embed",
+        "content": "Ada health is a digital health companion that takes your symptoms and suggests possible causes, as well as whether or not you should seek medical attention. This project was in conjunction with Sutter Health, a large health insurance provider in California, in order to better advise their patients on their patient portal, and to direct them to the appropriate medical facility, but has since been expanded to other health systems, as well as clinical trials through the global health department of Ada. Built with react, express, and vanilla-javascript.",
+        "link": {
+            "url":"",
+            "title":"",
+            "text":""
+        }
+    },
+    {
+        "title":"Ada Health Report Exporter",
+        "content": "Once an Ada assessment has been completed, if you are taking part in a clinical trial, the data will be processed and the report will be sent to the hospital or university's clinical study data system (such as redcap). This service was build in python 3 with flask.",
+        "link": {
+            "url":"",
+            "title":"",
+            "text":""
+        }
+    },
+    {
+        "title":"Hotels.de",
+        "content": "We rebuilt hotels.de, replacing an agency-built solution with react, redux, graphQL, server-side rendering, and express, without causing disruption to the existing customers, and increasing upon the 6-million-euro per year revenue, localized and available in 6 languages. This was done by developing a multi-tenant platform solution by which other hotel-booking websites owned by the HRS group could also generate their websites, which had similar functionality, but could now be made more consistent, maintainable, and extendable.",
+        "link": {
+            "url":"",
+            "title":"",
+            "text":""
+        }
+    },
+    {
+        "title":"Storyflip",
+        "content": "Convert a digital video into a physical flipbook! Available in two formats- print yourself, or send it to me to have it professionally printed and sent to you for a small price. I wanted to build a webapp from the bottom up- so this was the project I chose. The frontend is built on react, the backend with express, and it is deployed with docker, so I got to learn a lot of new things along the way. Available at: ",
+        "link": {
+            "url":"https://www.storyflip.me",
+            "title":"videos to flipbook converter",
+            "text":"Storyflip.me"
+        }
+    },
+    {
+        "title":"Amazon Alexa Space Station Locater",
+        "content": "As part of my interest in developing my skills in different directions, I learned how to build apps for the Amazon Alexa. This is the third in a series of apps I built for Amazon Alexa, and for whatever reason the most successful. It takes the current time and returns the point on Earth over which the International Space Station is at this very second. Built using Node and Amazon Lambda. Available at: ",
+        "link": {
+            "url":"https://www.amazon.com/mcgnly-Space-Station/dp/B01MZ2ONRB/ref=sr_1_2?s=digital-skills&ie=UTF8&qid=1486298736&sr=1-2&keywords=mcgnly",
+            "title":"amazon alexa app",
+            "text":"Amazon Alexa app store"
+        }
+    },
+    {
+        "title":"Basic Redux",
+        "content": "While I was teaching a couple of people development in react and how to incorporate redux, I built a tool to explain the basics and make it easy to interact with different elements to better understand how they fit together. Built using create-react-app, redux, less, and gulp.",
+        "link": {
+            "url":"",
+            "title":"",
+            "text":""
+        }
+    }
+]

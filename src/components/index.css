@@ -1,0 +1,198 @@
+
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module h2 {
+  margin-bottom: .75em;
+  font-size: 30px;
+  border-bottom: #B2DFDB;
+  border-style: solid;
+}
+
+section.module p {
+  margin-top: 0em;
+  font-size: 16px;
+  font-size: 1.2em;
+  font-weight: 300;
+  font-family: sans-serif;
+  line-height: 2em;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+
+section.module.content {
+  padding: 2em;
+  height: auto;
+}
+section.module.parallax {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 35em;
+  position:static;
+  display: flex;
+  align-items: center;
+}
+section.module.parallax h1 {
+  color: #212121;
+  font-size: 100px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+section.module.parallax-1 {
+  justify-content: center;
+}
+section.module.parallax-2 {
+  background-image: url("../images/Margaret_Hamilton.jpg");
+  background-position-y: -140px; 
+}
+section.module.parallax-3 {
+  background-image: url("../images/Reprogramming_ENIAC.jpg");
+}
+
+section.module.parallax-4 {
+  background-image: url("../images/Grace_Hopper_and_UNIVAC.jpg");
+  background-position-y: -200px;
+  overflow-x: hidden;
+}
+
+.projectsItem{
+  position: relative;
+  display: block;
+  margin-bottom: 5em;
+}
+.projectsLink{
+  position: absolute;
+  display: inline-block;
+  width: 20%;
+  top: 20%;
+}
+.projectsItem p{
+  width: 50%;
+  display: inline-block;
+  position: relative;
+  left: 40%;
+}
+
+.projects a{
+  color: #efefef; 
+  font-family: monospace;
+  font-size: 24px;
+}
+
+.projects h4{
+  color: #efefef; 
+  font-family: monospace;
+  font-size: 24px;
+}
+
+.module.content.projects{
+  height:auto;
+}
+
+.contact a{
+  color: #efefef; 
+  font-family: monospace;
+  /*padding-right: 5em;*/
+  font-size: 24px;
+  text-decoration:none;
+}
+
+ul.accessibility li{
+  display: list-item;
+  list-style-type: disc;
+  margin-left: 30px;
+}
+
+section.about .navbar a.about{
+  background-color: red;
+}
+
+/* accordion sections */
+/* Style the accordion chevron icon */
+.accordion__icon {
+  margin-left: auto;
+  transition: transform 0.6s ease;
+}
+
+/* Style to rotate icon when state is active */
+.rotate {
+  transform: rotate(90deg);
+}
+
+/* Style the accordion content panel. Note: hidden by default */
+.accordion__content {
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+}
+
+
+
+@media(max-width: 700px) { /* phone sized */
+  section.module p {
+    font-size: 16px;
+  }
+  section.module h2 {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 70px;
+  }
+  section.module a{
+    font-size: 18px;
+  }
+  section.module.parallax-1 {
+    background-position-y: 0em;
+    background-size: 130%;
+    height: 300px;
+    padding-top: 50px;
+    box-sizing: border-box;
+  }
+  section.module.parallax-2 {
+    background-position-y: 0em;
+    background-size: 150%;
+  }
+  section.module.parallax-4 {
+    background-position-y: 0px;
+  }  
+  ul{
+    margin-left:0em;
+  }
+  .navbar{
+    margin-bottom: 0em;
+  }
+  .navbar a{
+    font-size: 1em;
+  }
+  .contact ul{
+    list-style-type:disc;
+  }
+  .projectsLink {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    top: 0%;
+    position: static;
+  }
+  .projectsItem p {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    left: 0%;
+  }
+}
+@media(min-width: 600px) and (max-width: 1100px) {/* ipad sized */
+  section.module.parallax-1 {
+    background-position-y: -9em;
+  }
+  section.module.parallax h1{
+    font-size: 120px;
+  }
+  section.module.parallax-2 {
+    background-position-y: 0px;
+  }
+}
+
