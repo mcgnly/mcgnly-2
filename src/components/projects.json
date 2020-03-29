@@ -18,7 +18,7 @@
         }
     },
     {
-        "title":"Hotels.de",
+        "title":"Hotel.de",
         "content": "We rebuilt hotels.de, replacing an agency-built solution with react, redux, graphQL, server-side rendering, and express, without causing disruption to the existing customers, and increasing upon the 6-million-euro per year revenue, localized and available in 6 languages. This was done by developing a multi-tenant platform solution by which other hotel-booking websites owned by the HRS group could also generate their websites, which had similar functionality, but could now be made more consistent, maintainable, and extendable.",
         "link": {
             "url":"",
@@ -33,6 +33,15 @@
             "url":"https://www.storyflip.me",
             "title":"videos to flipbook converter",
             "text":"Storyflip.me"
+        }
+    },
+    {
+        "title":"auto-sunset",
+        "content": "Machine-generated text is an interesting thing. You could use it for what you usually think of in terms of text, like stories or articles, but it turns out that SVG are also more or less text under the hood. This project uses the generative grammar Tracery to create soft images of sunsets, with and without flocks of birds and telephone wires. It is deployed to twitter via Cheap Bots, Done Quick. Available at: ",
+        "link": {
+            "url":"https://twitter.com/autosunset1",
+            "title":"auto generated svg sunset images",
+            "text":"@autosunset1"
         }
     },
     {

@@ -30,7 +30,7 @@ section.module.parallax {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 35em;
+  height: 25em;
   position:static;
   display: flex;
   align-items: center;
@@ -93,12 +93,12 @@ section.module.parallax-4 {
   height:auto;
 }
 
-.contact a{
+.contactInfo {
   color: #efefef; 
   font-family: monospace;
-  /*padding-right: 5em;*/
   font-size: 24px;
   text-decoration:none;
+  line-height: 2em;
 }
 
 ul.accessibility li{
@@ -113,23 +113,15 @@ section.about .navbar a.about{
 
 /* accordion sections */
 /* Style the accordion chevron icon */
-.accordion__icon {
-  margin-left: auto;
-  transition: transform 0.6s ease;
+.accordion-icon {
+  margin-right: 10px;
 }
 
 /* Style to rotate icon when state is active */
-.rotate {
+.accordion-icon-open {
+  margin-right: 10px;
   transform: rotate(90deg);
 }
-
-/* Style the accordion content panel. Note: hidden by default */
-.accordion__content {
-  overflow: hidden;
-  transition: max-height 0.6s ease;
-}
-
-
 
 @media(max-width: 700px) { /* phone sized */
   section.module p {
@@ -161,12 +153,6 @@ section.about .navbar a.about{
   ul{
     margin-left:0em;
   }
-  .navbar{
-    margin-bottom: 0em;
-  }
-  .navbar a{
-    font-size: 1em;
-  }
   .contact ul{
     list-style-type:disc;
   }
@@ -183,13 +169,16 @@ section.about .navbar a.about{
     position: relative;
     left: 0%;
   }
+  .projectsItem {
+    outline: 0;
+  }
 }
 @media(min-width: 600px) and (max-width: 1100px) {/* ipad sized */
   section.module.parallax-1 {
     background-position-y: -9em;
   }
   section.module.parallax h1{
-    font-size: 120px;
+    font-size: 90px;
   }
   section.module.parallax-2 {
     background-position-y: 0px;

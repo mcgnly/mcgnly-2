@@ -1,0 +1,11 @@
+.projectContent {
+        padding-top: 10px;
+        padding-left: 80px;
+}
+
+@media(max-width: 700px) { /* phone sized */
+    .projectContent {
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+}
