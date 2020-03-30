@@ -26,12 +26,12 @@ const Image = () => {
     }
   `)
 
-  return <Img 
-    fixed={data.placeholderImage.childImageSharp.fixed} 
+  return <Img
+    fixed={data.placeholderImage.childImageSharp.fixed}
     style={{
-      marginBottom:'20px',
-  }}
-    />
+      marginBottom: '20px',
+    }}
+  />
 }
 
 export default Image

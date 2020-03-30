@@ -1,8 +1,8 @@
-import React, { useState } from "react"
+import React from "react"
 import "../components/index.css"
 import Layout from "../components/layout"
 import BkgImage from "../components/leaderBkgImage"
-import Image from "../components/Image"
+import Image from "../components/image"
 import SEO from "../components/seo"
 import projectList from "../components/projects.json";
 import ProjectItem from "../components/projectItem";
@@ -76,7 +76,7 @@ function IndexPage() {
 							<a className="contactInfo" href="https://twitter.com/mcgnly" target="_blank" title="See some things I made for the internet"><FontAwesomeIcon size='2x' icon={faTwitterSquare} /></a>
 						</li>
 					</ul>
-						<ContactForm />
+					<ContactForm />
 				</div>
 			</section>
 		</Layout>
