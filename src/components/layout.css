@@ -77,10 +77,6 @@ p{
   color: #efefef;
 }
 
-ul{
-  list-style-type:disc;
-  margin-left: 2em;
-}
 a{
   cursor: pointer;
 }
@@ -114,20 +110,6 @@ a{
   color: #efefef;
 }
 
-a.hidden {
-  position: absolute;
-  left: -999px;
-}
-a.hidden:focus {
-    left: 5px;
-    text-decoration: none;
-    background-color: red;
-    padding: 10px;
-    font-family: monospace;
-    font-weight: bolder;
-    font-size: 1.6em;
-    top:1.5em;
-}
 footer {
   background-color: #37479e;
   color: #efefef; 

@@ -8,13 +8,11 @@ const Header = () => (
       background: `rebeccapurple`
     }}
   >
-    <a className="hidden" href="#aboutMe">Skip to Content</a>
     <section className="navbar">
       <ul className="navbarLinks">
         <li><a href="#aboutMe" className="about">About Me</a></li>
         <li><a href="#work">Work</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a href="#aboutHere">This Website</a></li>
       </ul>
     </section>
   </header>

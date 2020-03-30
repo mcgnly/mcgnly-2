@@ -7,6 +7,8 @@ import SEO from "../components/seo"
 import projectList from "../components/projects.json";
 import ProjectItem from "../components/projectItem";
 import ContactForm from '../components/contactForm';
+import { faGithubSquare, faLinkedin, faTwitterSquare } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function IndexPage() {
 	return (
@@ -54,30 +56,6 @@ function IndexPage() {
 				</div>
 			</section>
 
-			<section className="module parallax parallax-4">
-				<div className="container">
-					<h1 tabIndex="0" id="aboutHere">This page</h1>
-				</div>
-			</section>
-
-			<section className="module content">
-				<div className="container">
-					<h2 tabIndex="0">Notes on Design</h2>
-					<p tabIndex="0">This website was made with accessibility in mind.</p>
-					<ul className="accessibility">
-						<li tabIndex="0">
-							<p>Contrast: according to best practices set forth by WCAG AAA standard, the contrast between normal-sized text and background should be a minimum of 7:1. On this page it is 7.14:1</p>
-						</li>
-						<li tabIndex="0">
-							<p>Colors: the palette here was kept to a relatively monochromatic scale, in order to be readable by people with different forms of color blindness, and the text is slightly darker than white in order to be more readable by people with dyslexia.</p>
-						</li>
-						{/* <li tabIndex="0">
-						<p>Screen readers: this page is tab-through-able, and on the first tab reveals a "skip to content" button, which bypasses the navbar.</p>
-					</li> */}
-					</ul>
-				</div>
-			</section>
-
 			<section className="module parallax parallax-3">
 				<div className="container">
 					<h1 tabIndex="0" id="contact">Contact</h1>
@@ -87,22 +65,18 @@ function IndexPage() {
 			<section className="module content">
 				<div className="container">
 					<h2 tabIndex="0">Contact Me:</h2>
-					<ul className="contact" tabIndex="0">
+					<ul tabIndex="0" className="contact flex">
 						<li>
-							<a className="contactInfo" href="https://github.com/mcgnly" target="_blank" title="See some things I made for the internet">GitHub: mcgnly</a>
+							<a className="contactInfo" href="https://github.com/mcgnly" target="_blank" title="See some things I made for the internet"><FontAwesomeIcon size='2x' icon={faGithubSquare} /></a>
 						</li>
 						<li>
-							<a className="contactInfo" href="https://www.linkedin.com/in/mcgnly/" target="_blank" title="Social networking for adults">Linkedin: www.linkedin.com/in/mcgnly</a>
+							<a className="contactInfo" href="https://www.linkedin.com/in/mcgnly/" target="_blank" title="Social networking for adults"><FontAwesomeIcon size='2x' icon={faLinkedin} /></a>
 						</li>
 						<li>
-							<p style={{
-								color: '#efefef',
-								fontFamily: 'monospace',
-								fontSize: '24px',
-							}}>Or write to me here!</p>
+							<a className="contactInfo" href="https://github.com/mcgnly" target="_blank" title="See some things I made for the internet"><FontAwesomeIcon size='2x' icon={faTwitterSquare} /></a>
 						</li>
-						<ContactForm />
 					</ul>
+						<ContactForm />
 				</div>
 			</section>
 		</Layout>

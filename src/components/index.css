@@ -101,16 +101,6 @@ section.module.parallax-4 {
   line-height: 2em;
 }
 
-ul.accessibility li{
-  display: list-item;
-  list-style-type: disc;
-  margin-left: 30px;
-}
-
-section.about .navbar a.about{
-  background-color: red;
-}
-
 /* accordion sections */
 /* Style the accordion chevron icon */
 .accordion-icon {
@@ -121,6 +111,12 @@ section.about .navbar a.about{
 .accordion-icon-open {
   margin-right: 10px;
   transform: rotate(90deg);
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 20%;
 }
 
 @media(max-width: 700px) { /* phone sized */
@@ -153,8 +149,10 @@ section.about .navbar a.about{
   ul{
     margin-left:0em;
   }
-  .contact ul{
-    list-style-type:disc;
+  .contact {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 20%;
   }
   .projectsLink {
     display: inline-block;
