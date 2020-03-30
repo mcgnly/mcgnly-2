@@ -73,7 +73,7 @@ function IndexPage() {
 							<a className="contactInfo" href="https://www.linkedin.com/in/mcgnly/" target="_blank" title="Social networking for adults"><FontAwesomeIcon size='2x' icon={faLinkedin} /></a>
 						</li>
 						<li>
-							<a className="contactInfo" href="https://github.com/mcgnly" target="_blank" title="See some things I made for the internet"><FontAwesomeIcon size='2x' icon={faTwitterSquare} /></a>
+							<a className="contactInfo" href="https://twitter.com/mcgnly" target="_blank" title="See some things I made for the internet"><FontAwesomeIcon size='2x' icon={faTwitterSquare} /></a>
 						</li>
 					</ul>
 						<ContactForm />
