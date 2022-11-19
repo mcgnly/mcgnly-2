@@ -1,115 +1,119 @@
 [
     {
-        "title":"Open Internet Foundation, Distrikt.io",
+        "title": "Open Internet Foundation, Distrikt.io",
         "content": "Distrikt (distrikt.io) is a social network on the Internet Computer by Dfinity (https://dfinity.org), using react, Typescript, and react query, interfacing to the rust backend. I jumped in to the project with an entirely new team, picking up legacy code from already-departed developers and improving it, as well as launching green-field new sections and capabilities.I was then able to spearhead a global site rebranding, launching an entirely redesigned component-library based frontend to the entire social network, working closely with designers to ensure consistency over web, tablet, and mobile experiences. I also launched the POD NFT, a multi-asset NFT hosted on the Internet Computer, interfacing with the Stoic Labs team to implement wallet and airdrop functionality in user accounts. Other projects included: writing a rust utility for batch processing of NFT metadata, building a way to use NFT images as profile pictures and in posts, unifying the frontend to a react-query infrastructure for fetching data in a performant way while leveraging cache.",
         "link": {
-            "url":"distrikt.io",
-            "title":"distrikt.io",
-            "text":"a web3 social media site"
+            "url": "distrikt.io",
+            "title": "distrikt.io",
+            "text": "a web3 social media site"
         }
     },
     {
-        "title":"Medpex/Doc Morris mobile apps",
+        "title": "Medpex/Doc Morris mobile apps",
         "content": "I worked to build the Medpex mobile app. This is (at the time of writing) number 6 in the top apps in the medical category in German Android app store, with over 1 million downloads I also worked to build DocMorris mobile app, which is compiled from and based on the Medpex app. This is (at the time of writing) number 1 in the top apps in the medical category in German Android app store, with over 500k downloads",
         "link": {
-            "url":"",
-            "title":"",
-            "text":""
+            "url": "",
+            "title": "",
+            "text": ""
         }
     },
     {
-        "title":"ehealth-tec",
+        "title": "ehealth-tec",
         "content": "I spearheaded the E-Rezept Apotheke Web project: it was designed to access an electronic prescription via QR code brought by the patient- view and validate that the PDF prescription was not tampered with and contains the original valid signature from the doctor, and fulfill or reserve the prescription to prevent duplicate-medication fraud.I also worked on the E-Rezept Praxis Web: a project to generate and manage valid, legally-signed PDF prescriptions for public and private insurance, ensuring the highest standards of data privacy.",
         "link": {
-            "url":"",
-            "title":"",
-            "text":""
+            "url": "",
+            "title": "",
+            "text": ""
         }
     },
     {
-        "title":"Taktile",
+        "title": "Taktile",
         "content": "built greenfield alpha-version frontend for launch in prestigous Silicon Valley startup incubator, using React, Mobx and Tailwind",
         "link": {
-            "url":"",
-            "title":"",
-            "text":""
+            "url": "",
+            "title": "",
+            "text": ""
         }
     },
     {
-        "title":"Boxwise warehouse management system",
+        "title": "Boxwise warehouse management system",
         "content": "designed architecture and then built new version of warehouse management app, integrating existing MYSQL database with GraphQL, Flask, Auth0, and React",
         "link": {
-            "url":"",
-            "title":"",
-            "text":""
+            "url": "",
+            "title": "",
+            "text": ""
         }
     },
     {
-        "title":"Ada Health Web Embed",
+        "title": "Ada Health Web Embed",
         "content": "Ada health is a digital health companion that takes your symptoms and suggests possible causes, as well as whether or not you should seek medical attention. This project was in conjunction with Sutter Health, a large health insurance provider in California, in order to better advise their patients on their patient portal, and to direct them to the appropriate medical facility, but has since been expanded to other health systems, as well as clinical trials through the global health department of Ada. Built with react, express, and vanilla-javascript.",
         "link": {
-            "url":"",
-            "title":"",
-            "text":""
+            "url": "",
+            "title": "",
+            "text": ""
         }
     },
     {
-        "title":"Ada Health Report Exporter",
+        "title": "Ada Health Report Exporter",
         "content": "Once an Ada assessment has been completed, if you are taking part in a clinical trial, the data will be processed and the report will be sent to the hospital or university's clinical study data system (such as redcap). This service was build in python 3 with flask.",
         "link": {
-            "url":"",
-            "title":"",
-            "text":""
+            "url": "",
+            "title": "",
+            "text": ""
         }
     },
     {
-        "title":"Hotel.de",
+        "title": "Hotel.de",
         "content": "We rebuilt hotels.de, replacing an agency-built solution with react, redux, graphQL, server-side rendering, and express, without causing disruption to the existing customers, and increasing upon the 6-million-euro per year revenue, localized and available in 6 languages. This was done by developing a multi-tenant platform solution by which other hotel-booking websites owned by the HRS group could also generate their websites, which had similar functionality, but could now be made more consistent, maintainable, and extendable.",
         "link": {
-            "url":"",
-            "title":"",
-            "text":""
+            "url": "",
+            "title": "",
+            "text": ""
         }
     },
     {
-        "title":"roulette.cafe",
-        "content": "I got tired of going to the same cafe all the time, so I leveraged google maps and reviews to get a list of the highest-reviewed cafes and restaurants in the city, and give you the closest public transit station. Available at: ",
+        "title": "roulette.cafe",
+        "content": "I got tired of going to the same cafe all the time, so I leveraged google maps and reviews to get a list of the highest-reviewed cafes and restaurants in the city, and give you the closest public transit station. Available at:",
         "link": {
-            "url":"https://roulette.cafe/",
-            "title":"randomly select a cafe or coffee shop in Berlin",
-            "text":"roulette.cafe"
+            "url": "https://roulette.cafe/",
+            "title": "randomly select a cafe or coffee shop in Berlin",
+            "text": "roulette.cafe"
         }
     },
     {
-        "title":"Storyflip",
-        "content": "Convert a digital video into a physical flipbook! Available in two formats- print yourself, or send it to me to have it professionally printed and sent to you for a small price. I wanted to build a webapp from the bottom up- so this was the project I chose. The frontend is built on react, the backend with express, and it is deployed with docker, so I got to learn a lot of new things along the way. Available at: ",
+        "title": "Storyflip",
+        "content": "Convert a digital video into a physical flipbook! Available in two formats- print yourself, or send it to me to have it professionally printed and sent to you for a small price. I wanted to build a webapp from the bottom up- so this was the project I chose. The frontend is built on react, the backend with express, and it is deployed with docker, so I got to learn a lot of new things along the way. Available at:",
         "link": {
-            "url":"",
-            "title":"",
-            "text":""
+            "url": "",
+            "title": "",
+            "text": ""
         }
     },
     {
-        "title":"auto-sunset",
+        "title": "auto-sunset",
         "content": "Machine-generated text is an interesting thing. You could use it for what you usually think of in terms of text, like stories or articles, but it turns out that SVG are also more or less text under the hood. This project uses the generative grammar Tracery to create soft images of sunsets, with and without flocks of birds and telephone wires. It is deployed to twitter via Cheap Bots, Done Quick. Available at: ",
         "link": {
-            "url":"https://twitter.com/autosunset1",
-            "title":"auto generated svg sunset images",
-            "text":"@autosunset1"
+            "url": "https://twitter.com/autosunset1",
+            "title": "auto generated svg sunset images",
+            "text": "@autosunset1"
         }
     },
     {
-        "title":"Amazon Alexa Space Station Locater",
-        "content": "As part of my interest in developing my skills in different directions, I learned how to build apps for the Amazon Alexa. This is the third in a series of apps I built for Amazon Alexa, and for whatever reason the most successful. It takes the current time and returns the point on Earth over which the International Space Station is at this very second. Built using Node and Amazon Lambda. Available at: ",
-
+        "title": "Amazon Alexa Space Station Locater",
+        "content": "As part of my interest in developing my skills in different directions, I learned how to build apps for the Amazon Alexa. This is the third in a series of apps I built for Amazon Alexa, and for whatever reason the most successful. It takes the current time and returns the point on Earth over which the International Space Station is at this very second. Built using Node and Amazon Lambda.",
+        "link": {
+            "url": "",
+            "title": "",
+            "text": ""
+        }
     },
     {
-        "title":"Basic Redux",
+        "title": "Basic Redux",
         "content": "While I was teaching a couple of people development in react and how to incorporate redux, I built a tool to explain the basics and make it easy to interact with different elements to better understand how they fit together. Built using create-react-app, redux, less, and gulp.",
         "link": {
-            "url":"",
-            "title":"",
-            "text":""
+            "url": "",
+            "title": "",
+            "text": ""
         }
     }
 ]

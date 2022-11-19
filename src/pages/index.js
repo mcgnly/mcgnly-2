@@ -3,7 +3,6 @@ import "../components/index.css"
 import Layout from "../components/layout"
 import BkgImage from "../components/leaderBkgImage"
 import Image from "../components/image"
-import SEO from "../components/seo"
 import projectList from "../components/projects.json";
 import ProjectItem from "../components/projectItem";
 import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -12,7 +11,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function IndexPage() {
 	return (
 		<Layout>
-			<SEO title="Home" />
 			<section>
 				<BkgImage className='parallax module parallax-1'>
 					<h1 tabIndex="0" id="aboutMe" style={{
