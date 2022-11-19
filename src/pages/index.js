@@ -6,8 +6,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import projectList from "../components/projects.json";
 import ProjectItem from "../components/projectItem";
-import ContactForm from '../components/contactForm';
-import { faGithubSquare, faLinkedin, faTwitterSquare } from '@fortawesome/free-brands-svg-icons'
+import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function IndexPage() {
@@ -70,13 +69,13 @@ function IndexPage() {
 							<a className="contactInfo" href="https://github.com/mcgnly" target="_blank" title="See some things I made for the internet"><FontAwesomeIcon size='2x' icon={faGithubSquare} /></a>
 						</li>
 						<li>
-							<a className="contactInfo" href="https://www.linkedin.com/in/mcgnly/" target="_blank" title="Social networking for adults"><FontAwesomeIcon size='2x' icon={faLinkedin} /></a>
+							<a className="contactInfo" href="https://www.linkedin.com/in/mcgnly/" target="_blank" title="Drop me a line if you would like to work together"><FontAwesomeIcon size='2x' icon={faLinkedin} /></a>
 						</li>
-						<li>
+						{/* <li>
 							<a className="contactInfo" href="https://twitter.com/mcgnly" target="_blank" title="See some things I made for the internet"><FontAwesomeIcon size='2x' icon={faTwitterSquare} /></a>
-						</li>
+						</li> */}
 					</ul>
-					<ContactForm />
+
 				</div>
 			</section>
 		</Layout>

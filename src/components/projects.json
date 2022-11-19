@@ -46,12 +46,7 @@
     },
     {
         "title":"Amazon Alexa Space Station Locater",
-        "content": "As part of my interest in developing my skills in different directions, I learned how to build apps for the Amazon Alexa. This is the third in a series of apps I built for Amazon Alexa, and for whatever reason the most successful. It takes the current time and returns the point on Earth over which the International Space Station is at this very second. Built using Node and Amazon Lambda. Available at: ",
-        "link": {
-            "url":"https://www.amazon.com/mcgnly-Space-Station/dp/B01MZ2ONRB/ref=sr_1_2?s=digital-skills&ie=UTF8&qid=1486298736&sr=1-2&keywords=mcgnly",
-            "title":"amazon alexa app",
-            "text":"Amazon Alexa app store"
-        }
+        "content": "As part of my interest in developing my skills in different directions, I learned how to build apps for the Amazon Alexa. This is the third in a series of apps I built for Amazon Alexa, and for whatever reason the most successful. It takes the current time and returns the point on Earth over which the International Space Station is at this very second. Built using Node and Amazon Lambda. Available at: "
     },
     {
         "title":"Basic Redux",

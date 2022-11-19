@@ -67,8 +67,37 @@ function SEO({ description, lang, meta, title }) {
           name: `twitter:description`,
           content: metaDescription,
         },
-      ].concat(meta)}
-    />
+      ].concat(meta)}>
+
+
+      {/* <!-- VISA Tracking Code for www.mcgnly.com --> */}
+      <script>
+      {(function (v, i, s, a) {
+        if (!v._visaSettings) {
+          v._visaSettings = {}
+        }
+        v._visaSettings["d9d759b4-f127-11ea-b589-901b0edac50a"] = {
+          v: "0.3",
+          s: "d9d759b4-f127-11ea-b589-901b0edac50a",
+          a: "1",
+        }
+        var _v = i.getElementsByTagName("head")[0]
+        var _a = _v
+        var _i = i.createElement("script")
+        var _s = _i
+        _s.defer = "defer"
+        _s.src =
+          s + a + v._visaSettings["d9d759b4-f127-11ea-b589-901b0edac50a"].v
+        _a.appendChild(_s)
+      })(
+        window,
+        document,
+        "//app-worker.visitor-analytics.io/main",
+        ".js?s=d9d759b4-f127-11ea-b589-901b0edac50a&v="
+      )}
+    </script>
+    {/* <!-- VISA Tracking Code for www.mcgnly.com --> */}
+    </Helmet>
   )
 }
 
